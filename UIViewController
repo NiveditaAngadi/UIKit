@@ -21,7 +21,10 @@ Viewcontrollers are UIResponder objects, and are inserted into the responder cha
 which typically belongs to a different viewcontroller. 
 If none of the view controller's views handles an event, the viewcontroller has the option of handling the event or passing it along to the superview. 
 
-4. 
+4. Explain about root view.
+Each view controller manages view hierarchy, the root view of which is stored in the "view" property of this class, is primarily acts as container for the rest of the view hierarchy. 
+The size and position of the root view is determined by the object that owns it, which is either a parent view controller or the app's window.
+
 
 
 
