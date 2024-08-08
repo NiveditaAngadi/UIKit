@@ -25,6 +25,7 @@ If none of the view controller's views handles an event, the viewcontroller has 
 Each view controller manages view hierarchy, the root view of which is stored in the "view" property of this class, is primarily acts as container for the rest of the view hierarchy. 
 The size and position of the root view is determined by the object that owns it, which is either a parent view controller or the app's window.
 
+5. 
 
 
 
